@@ -7,21 +7,29 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod && firebase deploy"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.2",
+    "@angular/cdk": "^6.1.0",
     "@angular/common": "^6.0.2",
     "@angular/compiler": "^6.0.2",
     "@angular/core": "^6.0.2",
     "@angular/forms": "^6.0.2",
     "@angular/http": "^6.0.2",
+    "@angular/material": "^6.1.0",
     "@angular/platform-browser": "^6.0.2",
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
+    "@ng-bootstrap/ng-bootstrap": "^2.0.0",
+    "angularfire2": "^5.0.0-rc.10",
+    "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
+    "firebase": "^5.0.4",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.2.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
